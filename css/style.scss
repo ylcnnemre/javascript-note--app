@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+$height:300px;
+body{
+    background-color: #7bdaf3;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.add{
+    background-color: #9ec862;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+.note{
+    width: $height;
+    height: $height;
+    background-color: #fff;
+    margin: 20px;
+    .tools{
+        background-color: #9ec862;
+        padding: 0.5rem;
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+       
+        .note-header{
+            flex-grow: 1;
+            text-align: left;
+        }
+        button{
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            font-size: 1.2rem;
+            margin-left: 0.5rem;
+        }
+    
+    }
+
+    .main{
+        background-color: #fff;
+        overflow: hidden;
+        height: $height;
+        width: 100%;
+    }
+    textarea{
+        resize: none;
+        height: $height;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+    }
+    .hidden{
+        display: none;
+    }
+}
+
+
+
+/* <div class="notes">
+<div class="tools">
+    <button class="edit">
+        <i class="fas fa-edit"></i>
+    </button>
+    <button class="delete">
+        <i class="fas fa-trash"></i>
+    </button>
+</div>
+<div class="main hidden">
+   
+</div>  
+<textarea ></textarea>
+</div> */ 

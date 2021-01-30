@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7bdaf3;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
+.add {
+  background-color: #9ec862;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.note {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.note .tools {
+  background-color: #9ec862;
+  padding: 0.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.note .tools .note-header {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: left;
+}
+
+.note .tools button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.note .main {
+  background-color: #fff;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+}
+
+.note textarea {
+  resize: none;
+  height: 300px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.note .hidden {
+  display: none;
+}
+
+/* <div class="notes">
+<div class="tools">
+    <button class="edit">
+        <i class="fas fa-edit"></i>
+    </button>
+    <button class="delete">
+        <i class="fas fa-trash"></i>
+    </button>
+</div>
+<div class="main hidden">
+   
+</div>  
+<textarea ></textarea>
+</div> */
+/*# sourceMappingURL=style.css.map */
